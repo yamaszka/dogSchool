@@ -3,6 +3,16 @@ font-family: Verdana, sans-serif;
     font-size: 0.8em;
 }
 
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px black solid;
+}
+
 hr {
   width: 100%;
 }
@@ -10,7 +20,7 @@ hr {
 #tytul {
   float: right;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-top: -20px;
   font-size: 1.1em;
     font-weight: 600;
     text-align: right;
@@ -19,9 +29,10 @@ hr {
 #menu_bars {
     color: #27D3B4;
     font-size: 1.3em;
-    padding: 0 0 0 10px;
-    float: left;
+    padding: 20px 0 0 20px;
+    /* float: left; */
     cursor: pointer;
+    display: block;
 }
 
 #width_menu {
@@ -31,7 +42,7 @@ hr {
 #menu {
   position: absolute;
   display: none;
-  top: 0;
+  top: 50px;
 }
 
 #menu ul {
@@ -62,6 +73,7 @@ color: #27D3B4;
 
 #obraz {
   width: 100%;
+  margin-top: 80px;
 }
 
 .obraz_img {
