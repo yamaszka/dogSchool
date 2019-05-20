@@ -1,0 +1,9 @@
+<div id="stopka">
+<hr>
+<span class="right_stopka"> Wszelkie prawa zastrzeżone &#169; 2017 </span>     <span class="left_stopka">Usługi Kynologiczne BOWENA</span>
+
+</div><!-- stopka-->
+<script src="app.js"></script>
+</body>
+
+</html>
