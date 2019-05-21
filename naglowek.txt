@@ -31,12 +31,13 @@
 </head>
 
 <body>
-
+<header>
 <div id="menu_bars" aria-label="menu"><i class="fas fa-bars"></i></div>
 
 <div id="tytul">
 Usługi kynologiczne <br><em style="color: #27D3B4;">BOWENA</em>
 </div>
+</header>
 
 <div id="menu">
 <ul>

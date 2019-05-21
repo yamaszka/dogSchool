@@ -71,9 +71,42 @@ hr {
 color: #27D3B4;
 }
 
+#menuszkolen{
+position: absolute;
+margin-left: 150px;
+margin-top: 20px;
+width: 200px;
+}
+
+#menuszkolen ul{
+list-style: none;
+margin-left: -40px;
+}
+
+#menuszkolen li{
+width: 220px;
+margin-bottom: 10px;
+}
+
+#menuszkolen a{
+display: block;
+color: #F2EFD2;
+text-decoration: none;
+padding: 5px;
+border: 1px solid #ffffff;
+background-color: #309C89;
+font-size: 0.9em;
+font-weight:400;
+}
+
+#menuszkolen a:hover {
+color: #27D3B4;
+}
+
 #obraz {
   width: 100%;
   margin-top: 80px;
+  border: 1px black solid;
 }
 
 .obraz_img {
