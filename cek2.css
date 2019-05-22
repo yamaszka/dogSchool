@@ -36,14 +36,41 @@ hr {
 }
 
 #width_menu {
+position: absolute;
+margin-left: 110px;
   display: none;
 }
 
-.menu {
-  position: relative;
-  /* display: none; */
-  top: 50px;
+#width_menu ul {
+list-style: none;
+padding-left: 0;
 }
+
+#width_menu li {
+width: 180px;
+margin-bottom: 20px;
+}
+
+#width_menu a {
+display: block;
+color: #222222;
+text-decoration: none;
+padding: 10px;
+border: 1px solid #ffffff;
+background-color: #ffffff;
+font-size: 1.2em;
+font-weight:600;
+}
+
+#width_menu a:hover {
+color: #27D3B4;
+}
+
+/* .menu {
+  position: relative;
+  display: none;
+  top: 50px;
+} */
 
 .menu ul {
   list-style: none;
@@ -73,35 +100,38 @@ color: #27D3B4;
 
 .main_menu {
   display: none;
+  position: fixed;
+  top: 50px;
+      z-index: 11;
 }
 
-#menuszkolen{
-position: absolute;
-margin-left: 150px;
-margin-top: 20px;
-width: 200px;
-display: none;
+#menuszkolen {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #menuszkolen ul{
 list-style: none;
-margin-left: -40px;
 }
 
 #menuszkolen li{
-width: 220px;
-margin-bottom: 10px;
+  width: 120px;
+      margin-bottom: 10px;
+      display: inline-block;
+      vertical-align: top;
 }
 
 #menuszkolen a{
-display: block;
-color: #F2EFD2;
-text-decoration: none;
-padding: 5px;
-border: 1px solid #ffffff;
-background-color: #309C89;
-font-size: 0.9em;
-font-weight:400;
+  display: block;
+  color: #F2EFD2;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  background-color: #309C89;
+  font-size: 0.9em;
+  font-weight: 400;
+  height: 40px;
 }
 
 #menuszkolen a:hover {
@@ -115,7 +145,7 @@ color: #27D3B4;
 .lesson_menu {
   padding-bottom: 40px;
   display: none;
-  margin-top: -50px;
+  position: relative;
 }
 
 .info {
@@ -150,6 +180,7 @@ color: #27D3B4;
   order: 3;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 #polecane ul{
@@ -171,6 +202,7 @@ color: #27D3B4;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 #info {
@@ -204,14 +236,26 @@ color: #309C89;
   padding-top: 20px;
 }
 
+#glowna_index {
+  order: 2;
+  width: 100%;
+  padding-top: 20px;
+}
+
 .glowna_img {
   width: 100%;
+}
+
+#kontakt{
+font-size: 1.8em;
+/* padding-bottom: 30px; */
 }
 
 #stopka {
   order: 5;
   display: flex;
   flex-wrap: wrap;
+      width: 100%;
 }
 
 .right_stopka {

@@ -21,7 +21,7 @@ POKAZY WYSZKOLENIA<br>
 </div><!-- info -->
 
 
-<div id="glowna">
+<div id="glowna_index">
 <img src="galeria/oswoic.jpg" alt="" class="glowna_img" />
 
 <br><br>
