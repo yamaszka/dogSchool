@@ -32,14 +32,14 @@
 
 <body>
 <header>
-<div id="menu_bars" aria-label="menu"><i class="fas fa-bars"></i></div>
+<div class="menu_bars main_bars" aria-label="menu"><i class="fas fa-bars"></i></div>
 
 <div id="tytul">
 Usługi kynologiczne <br><em style="color: #27D3B4;">BOWENA</em>
 </div>
 </header>
 
-<div id="menu">
+<div class="menu main_menu">
 <ul>
 <li><span class="close_cross"><i class="fas fa-times"></i></span></li>
 <li><a href="index.php">Strona Główna</a></li>

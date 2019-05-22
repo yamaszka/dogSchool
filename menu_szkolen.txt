@@ -1,0 +1,29 @@
+<div id="menuszkolen">
+<ul>
+<li><a href="kursy.php#menuszkolen" name="menuszkolen">Strona Główna Szkoleń</a></li>
+<li><a href="0stopien.php#menuszkolen">Zanim kupisz psa- stopień 0 :-)</a></li>
+<li><a href="psieprzedszkole.php#menuszkolen">Psie Przedszkole</a></li>
+<li><a href="Istopien.php#menuszkolen">Podstawowe Umiejętności- I stopień</a></li>
+<li><a href="IIstopien.php#menuszkolen">Różne formy aktywności- II stopień</a></li>
+<li><a href="IIIstopien.php#menuszkolen">Sport i rekreacja- zajęcia dla zaawansowanych</a></li>
+
+</ul>
+</div>
+
+<div class="menu_bars lesson_bars" aria-label="menu"><i class="fas fa-bars"></i>
+<div class="info">Menu- szkolenie psów</div>
+</div>
+
+<div class="menu lesson_menu">
+
+<ul>
+<li><span class="close_cross"><i class="fas fa-times"></i></span></li>
+<li><a href="kursy.php#menuszkolen" name="menuszkolen">Strona Główna Szkoleń</a></li>
+<li><a href="0stopien.php#menuszkolen">Zanim kupisz psa- stopień 0 :-)</a></li>
+<li><a href="psieprzedszkole.php#menuszkolen">Psie Przedszkole</a></li>
+<li><a href="Istopien.php#menuszkolen">Podstawowe Umiejętności- I stopień</a></li>
+<li><a href="IIstopien.php#menuszkolen">Różne formy aktywności- II stopień</a></li>
+<li><a href="IIIstopien.php#menuszkolen">Sport i rekreacja- zajęcia dla zaawansowanych</a></li>
+
+</ul>
+</div>

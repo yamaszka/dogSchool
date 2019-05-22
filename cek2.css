@@ -26,7 +26,7 @@ hr {
     text-align: right;
 }
 
-#menu_bars {
+.menu_bars {
     color: #27D3B4;
     font-size: 1.3em;
     padding: 20px 0 0 20px;
@@ -39,25 +39,25 @@ hr {
   display: none;
 }
 
-#menu {
-  position: absolute;
-  display: none;
+.menu {
+  position: relative;
+  /* display: none; */
   top: 50px;
 }
 
-#menu ul {
+.menu ul {
   list-style: none;
     padding-left: 5px;
     background-color: white;
 }
 
-#menu li {
+.menu li {
   width: 140px;
     padding-bottom: 10px;
     border-bottom: 1px #27D3B4 solid;
 }
 
-#menu a {
+.menu a {
   display: block;
   color: #222222;
   text-decoration: none;
@@ -67,8 +67,12 @@ hr {
   font-weight: 600;
 }
 
-#menu a:hover {
+.menu a:hover {
 color: #27D3B4;
+}
+
+.main_menu {
+  display: none;
 }
 
 #menuszkolen{
@@ -76,6 +80,7 @@ position: absolute;
 margin-left: 150px;
 margin-top: 20px;
 width: 200px;
+display: none;
 }
 
 #menuszkolen ul{
@@ -103,10 +108,30 @@ font-weight:400;
 color: #27D3B4;
 }
 
+.lesson_bars {
+  /* margin-top: -40px; */
+}
+
+.lesson_menu {
+  padding-bottom: 40px;
+  display: none;
+  margin-top: -50px;
+}
+
+.info {
+  color: white;
+    background-color: #27D3B4;
+    width: 160px;
+    font-size: 0.8em;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -30px;
+    display: none;
+}
+
 #obraz {
-  width: 100%;
+  width:100%;
   margin-top: 80px;
-  border: 1px black solid;
 }
 
 .obraz_img {
@@ -162,6 +187,15 @@ text-decoration: none;
 
 #info a:hover {
 text-decoration: underline;
+}
+
+#menu_warsztatow a{
+color: #27D3B4;
+font-size: 1.2em;
+}
+
+#menu_warsztatow a:hover{
+color: #309C89;
 }
 
 #glowna {
